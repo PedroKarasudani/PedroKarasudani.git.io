@@ -71,11 +71,20 @@
   color: #a3a3a3;
 }
 
+.formacao-extra {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 .cursos {
-  margin-bottom: 60px;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 4px;
 }
 
 .formacao-extra h3 {
+  grid-column: 1/-1;
   font-size: 0.875rem;
   line-height: 1.4;
   color: #8f8f8f;
@@ -94,12 +103,8 @@
   top: -4px;
 }
 
-.cursos h3::before {
+.formacao-extra h3::before {
   background: url("../img/cursos.svg") no-repeat center;
-}
-
-.idiomas h3::before {
-  background: url("../img/idiomas.svg") no-repeat center;
 }
 
 .formacao-extra li {
