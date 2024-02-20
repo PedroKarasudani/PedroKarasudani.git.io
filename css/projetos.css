@@ -1,8 +1,8 @@
-.experiencia .subtitulo {
+.projetos .subtitulo {
   color: #e0e0e0;
 }
 
-.experiencia-texto {
+.projetos-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -10,7 +10,7 @@
   color: #525252;
 }
 
-.experiencia-texto strong {
+.projetos-texto strong {
   color: #141414;
 }
 
@@ -74,16 +74,16 @@
 }
 
 @media (max-width: 800px) {
-  .experiencia {
+  .projetos {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
-  .experiencia .subtitulo {
+  .projetos .subtitulo {
     color: #141414;
   }
 
-  .experiencia-texto {
+  .projetos-texto {
     font-size: 1.25rem;
   }
 
