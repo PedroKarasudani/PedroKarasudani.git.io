@@ -5,7 +5,7 @@
 .footer .container {
   padding: 120px 20px 60px 20px;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: start;
 }
 
 .footer-texto {
@@ -31,6 +31,7 @@
   grid-column: 1/-1;
   font-size: 1.85rem;
   color: #8f8f8f;
+  justify-self: center;
 }
 
 @media (max-width: 800px) {
