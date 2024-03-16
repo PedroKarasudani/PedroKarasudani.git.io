@@ -1,4 +1,10 @@
 .projetos .subtitulo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.projetos .subtitulo-texto {
   color: #e0e0e0;
 }
 
@@ -79,7 +85,7 @@
     gap: 40px;
   }
 
-  .projetos .subtitulo {
+  .projetos .subtitulo-texto {
     color: #141414;
   }
 

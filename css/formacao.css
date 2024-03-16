@@ -4,6 +4,11 @@
 }
 
 .formacao .subtitulo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.subtitulo-texto {
   color: #000000;
   max-width: 5ch;
 }
@@ -131,7 +136,7 @@
     gap: 40px;
   }
 
-  .formacao .subtitulo {
+  .formacao .subtitulo-texto {
     color: #fff;
   }
 
@@ -142,5 +147,11 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 400px) {
+    .formacao-extra {
+      grid-template-columns: 1fr;
+    }
   }
 }

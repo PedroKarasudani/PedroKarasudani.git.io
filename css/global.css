@@ -32,7 +32,7 @@ img {
   gap: 100px;
 }
 
-.subtitulo {
+.subtitulo-texto {
   font-size: 8rem;
   line-height: 1;
   text-transform: uppercase;
@@ -41,9 +41,14 @@ img {
 }
 
 @media (max-width: 800px) {
-  .subtitulo {
+  .subtitulo-texto {
     font-size: 3rem;
-    text-transform: capitalize;
     max-width: initial !important;
+  }
+  .subtitulo > h2 {
+    text-transform: capitalize;
+  }
+  .subtitulo h2 + h2 {
+    text-transform: lowercase;
   }
 }
