@@ -20,7 +20,13 @@
   padding: 10px 20px;
   text-decoration: none;
   color: #141414;
-  display: block;
+  transition: 0.3s;
+}
+
+.header-menu li a:hover {
+  color: #70da1c;
+  border-bottom: 1.5px solid #70da1c;
+  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
